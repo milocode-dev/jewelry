@@ -23,6 +23,7 @@ h1, h2, h3, h4 {
 
 body {
     background-color: var(--bg-main);
+    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -46,6 +47,11 @@ body {
 .menu a {
     text-decoration: none;
     color: #111;
+}
+
+.menu a:hover {
+    border-bottom: 1px solid #111;
+    
 }
 
 .hero-section {
