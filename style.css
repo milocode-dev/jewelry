@@ -313,3 +313,33 @@ body {
 .footer-links a:hover {
     color: var(--text-muted);
 }
+
+
+
+/* Responsive/Media Query*/
+@media (max-width: 768px)  {
+    .navbar {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .hero-section h1 {
+        font-size: 25px;
+    }
+
+    .hero-cta  {
+        flex-direction: column;
+        width: 100% ;
+        padding: 0 20px;
+    }
+
+    .more-cta, .buy-cta {
+        width: 100%;
+        padding: 12px;
+        text-align: center;
+    }
+}
